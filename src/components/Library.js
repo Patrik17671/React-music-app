@@ -1,6 +1,6 @@
 import React from 'react';
 import LibrarySong from "./LibrarySong";
-import {library} from "@fortawesome/fontawesome-svg-core";
+
 
 const Library = ({songs, setCurrentSong,setSongs, audioRef, isPlaying, libraryStatus}) => {
     return (
